@@ -1,0 +1,105 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Cart - Shopping Clothes</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 20px;
+      background: #f9f9f9;
+    }
+    h1 {
+      text-align: center;
+      color: #333;
+    }
+    .cart-container {
+      width: 80%;
+      margin: auto;
+      background: white;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+    }
+    th, td {
+      padding: 12px;
+      text-align: center;
+      border-bottom: 1px solid #ddd;
+    }
+    th {
+      background: #333;
+      color: white;
+    }
+    td img {
+      width: 60px;
+      border-radius: 5px;
+    }
+    .total {
+      text-align: right;
+      margin-top: 20px;
+      font-size: 18px;
+      font-weight: bold;
+    }
+    .checkout-btn {
+      display: block;
+      margin: 20px auto 0;
+      padding: 10px 20px;
+      background: #ff5a5f;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      font-size: 16px;
+      cursor: pointer;
+    }
+    .checkout-btn:hover {
+      background: #e14c50;
+    }
+  </style>
+</head>
+<body>
+ <a href="file:///C:/Users/Prachi/OneDrive/Desktop/project1/shop/index.html#products">
+            <button class="btn">←</button>
+            </a>
+  <h1>🛒 My Shopping Cart</h1>
+
+  <div class="cart-container">
+    <table>
+      <tr>
+        <th>Product</th>
+        <th>Item</th>
+        <th>Price</th>
+        <th>Quantity</th>
+        <th>Subtotal</th>
+      </tr>
+      <tr>
+        <td><img src="https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcS14r6ZyUM6unG5amXKrnHAZQiwfVW8K-M3kFQHLTPRE6HwRMOYGpWc6lxf7RRqZSc-oqjEmYLueOSo1ThpNnV1iAUz3FHE6Gss9MNtDd7Db5nYKLTapmPLnA" alt="T-shirt"></td>
+        <td>Men's T-Shirt</td>
+        <td>$20</td>
+        <td>1</td>
+        <td>$550</td>
+      </tr>
+      <tr>
+        <td><img src="https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcT7SUQIm7Tq_FilzEB1rj3Il2SbTCQmvrfiiWr90ORgGjasOYnt4wdn--Oi8vKX9bYgqutiHAirMwHGcffgx4nBIxJLbUj6zajYrau-LZpRDlCGuqS3UHfu" alt="Jeans"></td>
+        <td>Blue Jeans</td>
+        <td>$40</td>
+        <td>2</td>
+        <td>$1000</td>
+      </tr>
+    </table>
+
+    <p class="total">Total: $1550</p>
+    <a href="file:///C:/Users/Prachi/OneDrive/Desktop/project1/shop/index.html#products">
+    <button class="checkout-btn">Proceed to Checkout</button>
+    </a>
+  </div>
+
+</body>
+</html>
